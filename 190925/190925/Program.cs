@@ -2,5 +2,8 @@
 Console.WriteLine("Enter two integers:");
 a = Convert.ToInt32(Console.ReadLine());
 b = Convert.ToInt32(Console.ReadLine());
-max = Math.Max(a, b);
+if(a > b)
+    max = a;
+else
+    max = b;
 Console.WriteLine($"{max} je větší");

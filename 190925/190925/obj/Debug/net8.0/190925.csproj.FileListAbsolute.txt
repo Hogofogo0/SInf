@@ -1,0 +1,15 @@
+D:\SInfPátek\190925\190925\bin\Debug\net8.0\190925.exe
+D:\SInfPátek\190925\190925\bin\Debug\net8.0\190925.deps.json
+D:\SInfPátek\190925\190925\bin\Debug\net8.0\190925.runtimeconfig.json
+D:\SInfPátek\190925\190925\bin\Debug\net8.0\190925.dll
+D:\SInfPátek\190925\190925\bin\Debug\net8.0\190925.pdb
+D:\SInfPátek\190925\190925\obj\Debug\net8.0\190925.GeneratedMSBuildEditorConfig.editorconfig
+D:\SInfPátek\190925\190925\obj\Debug\net8.0\190925.AssemblyInfoInputs.cache
+D:\SInfPátek\190925\190925\obj\Debug\net8.0\190925.AssemblyInfo.cs
+D:\SInfPátek\190925\190925\obj\Debug\net8.0\190925.csproj.CoreCompileInputs.cache
+D:\SInfPátek\190925\190925\obj\Debug\net8.0\190925.sourcelink.json
+D:\SInfPátek\190925\190925\obj\Debug\net8.0\190925.dll
+D:\SInfPátek\190925\190925\obj\Debug\net8.0\refint\190925.dll
+D:\SInfPátek\190925\190925\obj\Debug\net8.0\190925.pdb
+D:\SInfPátek\190925\190925\obj\Debug\net8.0\190925.genruntimeconfig.cache
+D:\SInfPátek\190925\190925\obj\Debug\net8.0\ref\190925.dll

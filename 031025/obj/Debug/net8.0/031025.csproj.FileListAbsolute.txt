@@ -1,0 +1,15 @@
+D:\SInfPátek\031025\bin\Debug\net8.0\031025.exe
+D:\SInfPátek\031025\bin\Debug\net8.0\031025.deps.json
+D:\SInfPátek\031025\bin\Debug\net8.0\031025.runtimeconfig.json
+D:\SInfPátek\031025\bin\Debug\net8.0\031025.dll
+D:\SInfPátek\031025\bin\Debug\net8.0\031025.pdb
+D:\SInfPátek\031025\obj\Debug\net8.0\031025.GeneratedMSBuildEditorConfig.editorconfig
+D:\SInfPátek\031025\obj\Debug\net8.0\031025.AssemblyInfoInputs.cache
+D:\SInfPátek\031025\obj\Debug\net8.0\031025.AssemblyInfo.cs
+D:\SInfPátek\031025\obj\Debug\net8.0\031025.csproj.CoreCompileInputs.cache
+D:\SInfPátek\031025\obj\Debug\net8.0\031025.sourcelink.json
+D:\SInfPátek\031025\obj\Debug\net8.0\031025.dll
+D:\SInfPátek\031025\obj\Debug\net8.0\refint\031025.dll
+D:\SInfPátek\031025\obj\Debug\net8.0\031025.pdb
+D:\SInfPátek\031025\obj\Debug\net8.0\031025.genruntimeconfig.cache
+D:\SInfPátek\031025\obj\Debug\net8.0\ref\031025.dll

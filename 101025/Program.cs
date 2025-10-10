@@ -29,17 +29,13 @@ for(int i = 0; i <= a; i++)
 {
     for( int j = 0; j <= a; j++)
     {
-        if(j % 2 == 0 && i % 2 == 0)
+        if((i + j) % 2 == 0)
         {
             Console.Write("||");
         }
-        else if(j % 2 == 1 && i % 2 == 0)
-        {
-            Console.Write("  ");
-        }else if(j % 2 == 1 && i % 2 == 1){
-            Console.Write("||");
+        else { 
+            Console.Write("  "); 
         }
-        else { Console.Write("  "); }
     }
     Console.WriteLine();
 }

@@ -7,11 +7,13 @@ double posV = 20;
 bool f = true;
 bool u = true;
 Random random = new Random();
-
+int speed = 1;
 int ph = 20;
 
 int miss = 0;
+double time = (double) Math.Log10(DateTime.Now.Second);
 
+Console.CursorVisible = false;
 
 while (true)
 {
@@ -40,7 +42,7 @@ while (true)
 
     Console.CursorLeft = 0;
     Console.CursorTop = 0;
-    //Console.WriteLine( posH +" "+ f + " "+  posV + " " + u);
+    Console.WriteLine( posH +" "+ f + " "+  posV + " " + u);
     
     Console.Clear();
     Console.WriteLine(miss.ToString());
@@ -55,28 +57,30 @@ while (true)
     }
 
 
-    Console.CursorTop = (int) posV;       
+    //Console.CursorTop = Math.Max(0, Math.Min((int)posV, Console.BufferHeight-1));       
+    //Console.CursorLeft = Math.Max(0, Math.Min((int) posH, Console.BufferHeight-1));
+    Console.CursorTop = (int) posV;
     Console.CursorLeft = (int) posH;
+    
     Console.Write(" ");
     Console.ResetColor();
-    if (posH >= w-10) f = !f;
-    if (posH <= 10) { 
+    if (posH > w-10) f = !f;
+    if (posH < 10) { 
         f = !f; 
         if(!(posV >= ph-1 && posV <= ph+7)) 
             miss++;
     }
 
-    if (posV >= h - 10) u = !u;
-    if (posV <= 10) u = !u;
+    if (posV > h - 10) u = !u;
+    if (posV < 10) u = !u;
 
-    double r = random.NextDouble();
-
-    
 
     
 
-    posH = f ? posH + r : posH - r;
-    posV = u ? posV + r : posV - r;
+    
+
+    posH = f ? posH++ : posH--;
+    posV = u ? posV++ : posV--;
     Thread.Sleep(30);
 
     

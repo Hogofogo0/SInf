@@ -10,6 +10,7 @@ namespace Canvas
         string currentBgColor = "\x1b[48;2;0;0;0m";
         public Canvas(int width, int height)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             grid = new char[width, height];
             fgColors = new string[width, height];
             bgColors = new string[width, height];

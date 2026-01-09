@@ -45,6 +45,8 @@ namespace Canvas
             {
                 for (int j = 0; j < w; j++)
                 {
+                    fgColors[j, i] = "\x1b[38;2;255;255;255m";
+                    bgColors[j, i] = "\x1b[48;2;0;0;0m";
                     grid[j, i] = ' ';
                 }
             }
